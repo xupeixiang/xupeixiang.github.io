@@ -1,4 +1,13 @@
-<H1>Nini, I Love U!</H1>
-<BR>
-<BR>
-<H3>---peixiang---</H3>
+---
+layout: default
+title: Eagle Xu
+---
+
+<div id="home">
+    <h1>Blog Posts</h1>
+    <ul class="posts">
+        {% for post in site.posts %}
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

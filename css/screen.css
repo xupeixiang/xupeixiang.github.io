@@ -169,6 +169,18 @@ ul.posts {
 }
 
   /* standard */
+  #title {
+    font-size: x-large;
+    color: #6E6E6E;
+    font-weight:bold;
+    float: left;
+  }
+
+  #date {
+    font-size: small;
+    color: #A4A4A4;
+    float: left;
+  }
 
   #post pre {
     border: 1px solid #ddd;
@@ -204,10 +216,3 @@ ul.posts {
     background-color: #333;
   }
 
-#related {
-  margin-top: 2em;
-}
-
-  #related h2 {
-    margin-bottom: 1em;
-  }

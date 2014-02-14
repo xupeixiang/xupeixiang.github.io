@@ -182,6 +182,22 @@ ul.posts {
     float: left;
   }
 
+  #license{
+    font-size: small;
+    text-align: right;
+    color:#BDBDBD
+  }
+
+  #license a {
+    font-size: small;
+    text-align: right;
+    color:#BDBDBD
+  }
+
+  #license img {
+    float: right;
+  }
+
   #post pre {
     border: 1px solid #ddd;
     background-color: #eef;

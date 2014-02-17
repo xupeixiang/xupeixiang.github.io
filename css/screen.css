@@ -92,6 +92,12 @@ ul.posts {
   margin-bottom: 2em;
 }
 
+#upbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
   .site .title a {
     color: #a00;
     text-decoration: none;

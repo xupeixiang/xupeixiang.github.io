@@ -194,6 +194,11 @@ ul.posts {
     color:#BDBDBD
   }
 
+  #topic img{
+      float: center;
+      width: 100%;
+  }
+
   #license a {
     font-size: small;
     text-align: right;

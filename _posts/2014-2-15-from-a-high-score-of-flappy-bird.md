@@ -2,7 +2,7 @@
 layout: post
 title: 从一个Flappy Bird的高分说起
 ---
-<img src="/images/posts/flappy-bird.jpg" alt="a high score of flappy bird"/>
+<div id="topic"><img src="/images/posts/flappy-bird.jpg" alt="a high score of flappy bird"/></div>
 
 今天在朋友圈看到了上面这个图，众小伙伴惊呼‘丧心病狂’、‘禽兽’、‘我们玩的是一个游戏吗？！’。不得不说，这个分已经超越了我的认知，刷新了我的三观。
 

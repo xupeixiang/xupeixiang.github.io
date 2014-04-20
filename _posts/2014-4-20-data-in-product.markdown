@@ -9,7 +9,7 @@ title: 产品中的数据
 
 最近自己还在努力熟悉自己这块的东西，但是总觉得进度好慢，既<span id='edu'>缺乏一个系统层面的全局的认识</span>，又<span id='edu'>对一些细节过目就忘</span>，这种事倍功半的感觉让自己很受挫，但一时也不无可奈何，而且也没时间静下来去反思出现这种问题的原因，直到上周听了首席架构师Jack的一个即兴演讲。
 
-Jack的演讲主要分为四部分：<span id='edu'>Follow the Data</span>、<span id='edu'>One Platform</span>、<span id='edu'>Many Integrations</span>、<span id='edu'>Operation</span>，按照他自己的说法，这几部分是一个IT系统能run起来，并且持续满足业务需求的全部方面了。虽然我对后面三部分也有点小感触，比如"One Platform"所强调的系统和模块层面的逻辑一致性，但是最大的感触还是数据这一块，这似乎正是我最近迷茫的根源，其他三部分以后有机会再展开。
+Jack的演讲主要分为四部分：<span id='edu'>Follow the Data</span>、<span id='edu'>One Platform</span>、<span id='edu'>Integrations</span>和<span id='edu'>Operation</span>，按照他自己的说法，这几部分是一个IT系统能run起来，并且持续满足业务需求的全部方面了。虽然我对后面三部分也有点小感触，比如"One Platform"所强调的系统和模块层面的逻辑一致性，但是最大的感触还是数据这一块，这似乎正是我最近迷茫的根源，其他三部分以后有机会再展开。
 
 最近两年几乎所有互联网产品都在强调用户，可用户的本质是什么？<span id='edu'>用户的本质其实就是数据</span>。用户对系统来说，就是可持续产生高维数据的元数据，这也就解释了机器人、僵尸粉等的存在，他们是地地道道的数据，之所以看起来怪怪的而容易被发现，是因为<span id='edu'>这些数据的维度还不够高</span>，批量的行为总是产生<span id='edu'>规律</span>，而这规律就是他们一出生就打在身上的烙印，当然这个话题再深入就可以扯到机器和人的差异等伦理学话题了。
 
@@ -19,7 +19,8 @@ Jack的演讲主要分为四部分：<span id='edu'>Follow the Data</span>、<sp
 
 吹了半天数据，我到底想说明什么呢？
 
-## 1.Data is Everthing. 2.Data is the Door.
+## 1.Data is Everthing. 
+## 2.Data is the Door.
 
 所以下个阶段准备转变策略，在<span id='edu'>关注代码实现细节之前</span>，先从<span id='edu'>数据流角度</span>把握整个系统，希望能获得事半功倍的效果。
 

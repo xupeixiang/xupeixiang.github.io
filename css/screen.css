@@ -23,6 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #a00;
   font-size: 100%;
 }
 
@@ -56,8 +57,16 @@ a:visited {
 }
 
 table {
+  border-collapse:collapse;
+  padding:5px;
+  width:100%;
+}
+
+table, th, td {
   font-size: inherit;
+  font-weight: bold;
   font: 100%;
+  border: 1px solid black;
 }
 
 /*****************************************************************************/
